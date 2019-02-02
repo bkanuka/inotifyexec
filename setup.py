@@ -35,7 +35,7 @@ setup(
     keywords=['inotifyexec', 'inotify'],
     entry_points={
         'console_scripts': [
-            'inotifyexec = inotifyexec.__main__:main'
+            'inotifyexec = inotifyexec.inotifyexec:main'
         ]
     },
 )

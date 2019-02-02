@@ -149,7 +149,7 @@ def watch_delay_call(
             break
 
 
-if __name__ == '__main__':
+def main():
     from pprint import pprint
 
     arguments = docopt(__doc__)
@@ -191,3 +191,7 @@ if __name__ == '__main__':
                      delay=float(arguments['--delay']),
                      recursive=arguments['--recursive'],
                      mask=mask)
+
+
+if __name__ == '__main__':
+    main()
